@@ -1,6 +1,18 @@
 # Facebook 2.0
 
 > A next-js powered fb chat clone styled with tailwind & hosted on vercel.
+
+## Setup tailwindcss
+
+- `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
+
+- Open the ./styles/globals.css file that Next.js generates for you by default and use the @tailwind directive to include Tailwind's _base_, _components_, and _utilities_ styles, replacing the original file contents:
+
+- Next, generate your **tailwind.config.js** and **postcss.config.js** files:
+
+- In your **tailwind.config.js** file, configure the purge option with the paths to all of your pages and components so Tailwind can tree-shake unused styles in production builds:
+- `purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],`
+
 > This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
