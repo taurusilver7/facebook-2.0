@@ -1,9 +1,18 @@
-const Header = () => {
-    return (
-        <header>
-            
-        </header>
-    )
-}
+import Image from "next/image";
 
-export default Header
+const Header = () => {
+  return (
+    <header>
+      {/* left */}
+      <div>
+        <Image />
+      </div>
+
+      {/* center */}
+
+      {/* right */}
+    </header>
+  );
+};
+
+export default Header;
