@@ -33,6 +33,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 - In your **tailwind.config.js** file, configure the purge option with the paths to all of your pages and components so Tailwind can tree-shake unused styles in production builds:
 - `purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],`
 
+- The Image component is a webp (compressed img element) exist only in next js.
+- The source of the image is added to the configured list of host names for the next js to search the host for resource.
+- Add next.config.js to add domains to the project.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
