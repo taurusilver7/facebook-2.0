@@ -20,6 +20,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 ## Setup tailwindcss
 
 - `npm install -D tailwindcss@latest postcss@latest autoprefixer@latest`
@@ -30,8 +32,6 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 - In your **tailwind.config.js** file, configure the purge option with the paths to all of your pages and components so Tailwind can tree-shake unused styles in production builds:
 - `purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],`
-
-> This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Learn More
 
