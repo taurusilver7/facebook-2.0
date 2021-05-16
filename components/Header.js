@@ -25,9 +25,13 @@ const Header = () => {
           height={40}
           layout="fixed"
         />
-        <div className="flex ml-2 items-centre rounded-full">
+        <div className="flex ml-2 items-centre rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6" />
-          <input type="text" placeholder="Search Facebook" />
+          <input
+            className="flex ml-2 items-center outline-none bg-transparent placeholder-gray-500"
+            type="text"
+            placeholder="Search Facebook"
+          />
         </div>
       </div>
 
