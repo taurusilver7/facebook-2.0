@@ -1,6 +1,6 @@
 const HeaderIcon = ({ Icon }) => {
   return (
-    <div>
+    <div className="flex items-center cursor-pointer md:px-10 sm:h-14 md:hover:bg-gray-100 rounded-xl">
       <Icon className="text-center h-5" />
     </div>
   );
