@@ -29,7 +29,7 @@ const Header = () => {
         <div className="flex ml-2 items-centre rounded-full bg-gray-100 p-2">
           <SearchIcon className="h-6 text-gray-600" />
           <input
-            className="flex ml-2 items-center outline-none bg-transparent placeholder-gray-500"
+            className="flex ml-2 items-center outline-none bg-transparent placeholder-gray-500 flex-shrink"
             type="text"
             placeholder="Search Facebook"
           />
