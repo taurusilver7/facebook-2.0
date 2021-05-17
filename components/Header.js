@@ -48,6 +48,10 @@ const Header = () => {
       </div>
 
       {/* right */}
+      <div>
+        {/* profile pic */}
+        <p className="whitespace-nowrap font-semibold pr-3">UserName</p>
+      </div>
     </div>
   );
 };
