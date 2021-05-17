@@ -17,7 +17,7 @@ import HeaderIcon from "./HeaderIcon";
 
 const Header = () => {
   return (
-    <header>
+    <div className="stick top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       {/* left */}
       <div className="flex item-center">
         <Image
@@ -48,7 +48,7 @@ const Header = () => {
       </div>
 
       {/* right */}
-    </header>
+    </div>
   );
 };
 
