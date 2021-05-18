@@ -37,6 +37,10 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 - The source of the image is added to the configured list of host names for the next js to search the host for resource.
 - Add next.config.js to add domains to the project.
 
+
+## NextAuth Setup
+> authentication for next js. It gets the session for the user on the server.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
