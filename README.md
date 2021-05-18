@@ -42,6 +42,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 > authentication for next js. It gets the session for the user on the server when server rendering.
 
 - To add NextAuth.js to a project create a file called [...nextauth].js in pages/api/auth.
+- Add authentication to a next js app using the [documentation](https://next-auth.js.org/getting-started/example)
 
 ## Learn More
 
