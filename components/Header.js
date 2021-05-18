@@ -53,6 +53,7 @@ const Header = () => {
         <p className="whitespace-nowrap font-semibold pr-3">UserName</p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />
+        <BellIcon className="icon" />
         <ChevronDownIcon className="icon" />
       </div>
     </div>
