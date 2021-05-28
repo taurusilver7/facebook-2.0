@@ -43,6 +43,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 - To add NextAuth.js to a project create a file called [...nextauth].js in pages/api/auth.
 - Add authentication to a next js app using the [documentation](https://next-auth.js.org/getting-started/example)
+- The next-auth gives multiple providers for the app authentication. Check the facebook providers at [facebook developer](https://www.developer.facebook.com). Get the ID & secret from the created app in the developer site & store them as env variables.
 
 ## Learn More
 
