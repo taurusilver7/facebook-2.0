@@ -62,3 +62,7 @@ The pages/api/hello.js is an express api feature for the next.js project used fo
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+FACEBOOK_ID = 5807612302612692
+FACEBOOK_SECRET = 8e77f3b3b7d81f94d505aa576f19a506
+NEXT_AUTH_URL = http://localhost:3000
